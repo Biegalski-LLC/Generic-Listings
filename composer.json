@@ -1,0 +1,26 @@
+{
+    "name": "biegalski-llc/generic-listings",
+    "description": "A Laravel package that will allow you to create, manage and display generic listings. Examples include: product listings, house listings, business location listings, and more!",
+    "keywords": ["laravel", "listings", "product listings", "house listings", "location listings"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Biegalski-LLC",
+            "email": "packages@biegalski-llc.com",
+            "homepage": "https://biegal.ski/"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Biegalski-LLC\\Generic-Listings\\GenericListingsServiceProvider"
+            ]
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9.1",
+        "orchestra/testbench": "^5.2"
+    }
+}
